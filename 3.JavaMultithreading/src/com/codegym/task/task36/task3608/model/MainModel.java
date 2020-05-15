@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MainModel implements Model {
 
-    private DataModel dataModel= new DataModel();
+    private DataModel dataModel = new DataModel();
     private UserService userService = new UserServiceImpl();
 
     @Override
@@ -17,8 +17,9 @@ public class MainModel implements Model {
     }
 
     @Override
-    public void loadUsers() {dataModel.setDisplayDeletedUserList(false);
-        dataModel.setUsers(userService.getUsersBetweenLevels(1,100));
+    public void loadUsers() {
+        dataModel.setDisplayDeletedUserList(false);
+        dataModel.setUsers(userService.getUsersBetweenLevels(1, 100));
 
     }
 
@@ -27,6 +28,12 @@ public class MainModel implements Model {
 
 
         List<User> users = userService.getAllDeletedUsers();
-        dataModel.setUsers(users);}
+        dataModel.setUsers(users);
     }
+
+    public void loadUserById(long id) {
+        User user = userService.getUsersById(id);
+        dataModel.setActiveUser(user);
+    }
+}
 

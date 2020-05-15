@@ -29,5 +29,10 @@ List<User> list = new ArrayList<>();
         throw new UnsupportedOperationException();
     }
 
+    @Override
+    public void loadUserById(long id) {
+        throw new UnsupportedOperationException();
+    }
+
 
 }
