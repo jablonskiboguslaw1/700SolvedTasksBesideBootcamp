@@ -14,8 +14,9 @@ public class UsersView implements View {
     @Override
     public void refresh(DataModel dataModel) {
         System.out.println("All users:");
-        dataModel.getUsers().forEach(a-> {
-            System.out.println("\t"+a);});
+        dataModel.getUsers().forEach(a -> {
+            System.out.println("\t" + a);
+        });
         System.out.println("===================================================");
 
 
@@ -27,7 +28,13 @@ public class UsersView implements View {
     }
 
 
-   public void fireShowAllUsersEvent(){
+    public void fireShowAllUsersEvent() {
         controller.onShowAllUsers();
-   }
+    }
+
+    public void fireShowDeletedUsersEvent() {
+        controller.onShowAllDeletedUsers();
+    }
+
+
 }

@@ -16,4 +16,6 @@ public class DataModel {
     public void setUsers(List<User> users) {
         this.users = users;
     }
+
+
 }

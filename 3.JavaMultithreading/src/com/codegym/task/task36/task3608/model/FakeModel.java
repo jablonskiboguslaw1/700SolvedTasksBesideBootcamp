@@ -23,4 +23,11 @@ List<User> list = new ArrayList<>();
 
 
     }
+
+    @Override
+    public void loadDeletedUsers() {
+        throw new UnsupportedOperationException();
+    }
+
+
 }
