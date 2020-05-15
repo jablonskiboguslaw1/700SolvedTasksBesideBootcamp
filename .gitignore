@@ -1,0 +1,12 @@
+﻿#############
+## Idea
+#############
+target/
+.idea/
+.idea
+.repository/
+/out/
+/CodeGymPlugin.properties
+/Instruction.png
+/out.log
+/out.log.*

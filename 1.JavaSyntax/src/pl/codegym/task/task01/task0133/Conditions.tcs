@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task01.task0133"\n\nNie myśl o sekundach...
+
+Napisz kod, który oblicza, ile sekund minęło od 15:00, jeżeli na zegarze jest 15:30. Wyświetl wynik.
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst.
+2.	Wyświetlony tekst powinien być dodatnią liczbą całkowitą.
+3.	Wyświetlona liczba musi być wielokrotnością 60.
+4.	Wyświetlona liczba musi spełniać warunki zadania.
+
+

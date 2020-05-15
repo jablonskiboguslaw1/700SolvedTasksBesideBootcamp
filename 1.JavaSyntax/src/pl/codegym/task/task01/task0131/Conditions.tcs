@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task01.task0131"\n\nWięcej konwersji
+
+Zaimplementuj metodę getStopyZCali(int cale). Metoda przyjmuje liczbę cali. Twoim zadaniem jest, aby metoda zwróciła liczbę pełnych stóp odpowiadających zmiennej cale. (1 stopa = 12 cali).
+
+Przeanalizuj ten przykład:
+Metoda getStopyZCali jest wywoływana z argumentem 243.
+
+Przykładowy wynik:
+20
+
+
+Requirements:
+1.	Metoda getStopyZCali(int) musi być publiczna i statyczna.
+2.	Metoda getStopyZCali musi zwracać int.
+3.	Metoda getStopyZCali nie powinna nic wyświetlać.
+4.	Metoda getStopyZCali musi zwracać poprawną liczbę pełnych st&oacute;p, odpowiadających zmiennej cale.
+
+

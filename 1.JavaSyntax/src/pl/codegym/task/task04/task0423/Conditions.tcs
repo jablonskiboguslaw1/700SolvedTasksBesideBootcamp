@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task04.task0423"\n\nStrategia ochroniarzy
+
+Za pomocą klawiatury wprowadź imię i wiek. Jeśli wiek to więcej niż 20 lat, wyświetl „Wystarczy, że masz 18”.
+
+
+Requirements:
+1.	Program powinien czytać linie z klawiatury.
+2.	Program powinien używać polecenia System.out.println() lub System.out.print().
+3.	Jeśli wiek to więcej niż 20, wyświetl &quot;Wystarczy, że masz 18&quot; i nic więcej.
+4.	Jeśli wiek jest mniejszy bądź r&oacute;wny 20, nie wyświetlaj niczego.
+
+

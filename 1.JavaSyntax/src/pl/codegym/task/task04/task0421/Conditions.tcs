@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task04.task0421"\n\nJola czy Jola?
+
+Przy pomocy klawiatury wprowadź dwa imiona. Jeśli imiona są identyczne, wyświetl „Imiona są identyczne”.
+Jeśli imiona są różne, ale są takiej samej długości, wyświetl „Imiona są takiej samej długości”.
+Jeśli imiona oraz ich długość są różne, nie wyświetlaj niczego.
+
+
+Requirements:
+1.	Program powinien czytać dwie linie z klawiatury.
+2.	Program powinien zawierać polecenia System.out.println() lub System.out.print().
+3.	Jeśli imiona są identyczne, wyświetl &bdquo;Imiona są identyczne&rdquo;
+4.	Jeśli imiona są r&oacute;żne, ale są takiej samej długości, wyświetl &bdquo;Imiona są takiej samej długości&rdquo;
+5.	Jeśli imiona oraz ich długość są r&oacute;żne, nie wyświetlaj niczego.
+
+

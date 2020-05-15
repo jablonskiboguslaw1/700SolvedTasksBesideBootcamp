@@ -1,0 +1,19 @@
+taskKey="pl.codegym.task.task03.task0318"\n\nPlan podboju świata
+
+Wprowadź z klawiatury liczbę i imię. Wyświetl następujący ciąg:
+<imie> przejmie władzę nad światem za <liczba> lat. Mua ha ha!
+
+Oto przykład:
+Kamil przejmie władzę nad światem za 8 lat. Mua ha ha!
+
+Kolejność wprowadzania danych jest bardzo ważna.
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst.
+2.	Program musi odczytywać dane z klawiatury.
+3.	Wyświetlony tekst musi zawierać wprowadzone imię.
+4.	Wyświetlony tekst musi zawierać wprowadzoną liczbę.
+5.	Wyświetlany tekst musi spełniać wszystkie warunki zadania.
+
+

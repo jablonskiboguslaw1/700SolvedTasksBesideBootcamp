@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task04.task0432"\n\nDobrego nigdy zbyt wiele
+
+Za pomocą klawiatury wprowadź string i liczbę N większą niż 0.
+Użyj pętli while, aby wyświetlić ciąg N razy. Każda wartość powinna być wyświetlona w nowej linii.
+
+Przykładowe wejście:
+abc
+2
+
+Przykładowy wynik:
+abc
+abc
+
+
+Requirements:
+1.	Program powinien czytać tekst z klawiatury.
+2.	Program powinien wyświetlać tekst na ekranie.
+3.	Każda wartość powinna być wyświetlona w nowej linii.
+4.	Program powinien wyświetlać string N razy.
+5.	Program musi używać pętli while.
+
+

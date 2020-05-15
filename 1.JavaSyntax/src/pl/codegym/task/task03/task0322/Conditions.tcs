@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task03.task0322"\n\nGłęboka i czysta miłość
+
+Użyj klawiatury, aby wprowadzić trzy imiona, a następnie wyświetl:
+imie1 + imie2 + imie3 = Czysta miłość. Ooo la la!
+
+Na przykład:
+Kamil + Ewa + Angelika = Czysta miłość. Ooo la la!
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst.
+2.	Program musi odczytywać dane z klawiatury.
+3.	Wyświetlony tekst musi zawierać wprowadzone imie1.
+4.	Wyświetlony tekst musi zawierać wprowadzone imie2.
+5.	Wyświetlony tekst musi zawierać wprowadzone imie3.
+6.	Wyświetlany tekst musi spełniać wszystkie warunki zadania.
+
+

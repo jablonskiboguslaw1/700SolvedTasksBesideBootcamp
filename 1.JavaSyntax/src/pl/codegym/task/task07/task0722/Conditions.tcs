@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task07.task0722"\n\nKoniec
+
+Utwórz listę ciągów.
+Wprowadź ciągi za pomocą klawiatury i dodaj je do listy.
+Wprowadzaj ciągi za pomocą klawiatury tak długo, aż użytkownik wprowadzi "koniec". Ciąg "koniec" jest pomijany.
+Wyświetl ciągi na ekranie, każdy w nowej linii.
+
+
+Requirements:
+1.	Zadeklaruj zmienną lista typu string i natychmiast ją zainicjalizuj.
+2.	Czytaj ciągi z klawiatury i dodawaj je do listy tak długo, aż użytkownik wprowadzi &quot;koniec&quot;.
+3.	Nie dodawaj słowa &quot;koniec&quot; do listy.
+4.	Wyświetl listę, każdą wartość w nowej linii.
+5.	Użyj pętli for.
+
+

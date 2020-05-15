@@ -1,0 +1,24 @@
+taskKey="pl.codegym.task.task04.task0437"\n\nTrójkąt z ósemek
+
+Używając pętli for, wyświetl trójkąt prostokątny o podstawie złożonej z 10 ósemek i wysokości 10.
+
+Przykładowy wynik na ekranie:
+8
+88
+888
+8888
+88888
+888888
+8888888
+88888888
+888888888
+8888888888
+
+
+Requirements:
+1.	Program nie powinien czytać liczb z klawiatury.
+2.	Program powinien wyświetlać liczby na ekranie.
+3.	Program powinien wyświetlać tr&oacute;jkąt prostokątny zbudowany z &oacute;semek o podstawie z 10 &oacute;semek i wysokości 10.
+4.	Program musi używać pętli for.
+
+

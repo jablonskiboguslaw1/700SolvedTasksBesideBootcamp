@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task13.task1310"\n\nI kto tu rządzi?
+
+1. Dodaj interfejsy Secretary i Boss do klas CleverMan i SmartGirl. Jeden interfejs do każdej klasy.
+Pomyśl, który interfejs powinien trafić do danej klasy.
+2. Spraw, aby interfejsy Secretary i Boss dziedziczyły interfejsy Person i CanWork, tak aby
+wszystkie metody w klasach CleverMan i SmartGirl zostały zadeklarowane w jednym z interfejsów.
+
+
+Requirements:
+1.	Klasa CleverMan musi implementować odpowiedni interfejs (Secretary lub Boss).
+2.	Klasa SmartGirl musi implementować odpowiedni interfejs (Secretary lub Boss).
+3.	Secretary to Person (sekretarka to, bez wątpienia, też człowiek).
+4.	Boss to Person (w końcu szef też człowiek), kt&oacute;ry lubi ciężko pracować (CanWork).
+
+

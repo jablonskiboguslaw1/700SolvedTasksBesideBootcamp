@@ -1,0 +1,25 @@
+taskKey="pl.codegym.task.task04.task0433"\n\nZobaczyć dolary w przyszłości
+
+Użyj pętli while, by wyświetlić kwadrat 10x10 pełen symboli dolara.
+Nie rozdzielaj symboli w żadnej linii.
+
+Przykładowy wynik:
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+
+
+Requirements:
+1.	Program nie powinien czytać tekstu z klawiatury.
+2.	Program powinien wyświetlać tekst na ekranie.
+3.	Program powinien wyświetlać kwadrat 10x10 pełen znak&oacute;w dolara.
+4.	Program musi używać pętli while.
+
+

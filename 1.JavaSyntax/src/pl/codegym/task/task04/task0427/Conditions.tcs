@@ -1,0 +1,31 @@
+taskKey="pl.codegym.task.task04.task0427"\n\nOpisywanie liczb
+
+Za pomocą klawiatury wprowadź liczbę całkowitą z przedziału 1 - 999. Wyświetl opis ciągu, jak poniżej:
+„parzysta liczba jednocyfrowa” – jeśli liczba jest parzysta i ma jedną cyfrę,
+„nieparzysta liczba jednocyfrowa” – jeśli liczba jest nieparzysta i ma jedną cyfrę,
+„parzysta liczba dwucyfrowa” – jeśli liczba jest parzysta i ma dwie cyfry,
+„nieparzysta liczba dwucyfrowa” – jeśli liczba jest nieparzysta i ma dwie cyfry,
+„parzysta liczba trzycyfrowa” – jeśli liczba jest parzysta i ma trzy cyfry,
+„nieparzysta liczba trzycyfrowa” – jeśli liczba jest nieparzysta i ma trzy cyfry.
+Jeśli wprowadzona liczba znajduje się poza przedziałem 1 - 999, nie wyświetlaj niczego.
+
+Przykład dla 100:
+parzysta liczba trzycyfrowa
+
+Przykład dla 51:
+nieparzysta liczba dwucyfrowa
+
+
+Requirements:
+1.	Program powinien odczytywać jedną liczbę z klawiatury.
+2.	Program powinien używać polecenia System.out.println() lub System.out.print().
+3.	Program powinien wyświetlać opis ciągu liczb i nic więcej.
+4.	Jeśli liczba jest parzysta i ma jedną cyfrę, wyświetl &quot;parzysta liczba jednocyfrowa&quot;.
+5.	Jeśli liczba jest nieparzysta i ma jedną cyfrę, wyświetl &quot;nieparzysta liczba jednocyfrowa&quot;.
+6.	Jeśli liczba jest parzysta i ma dwie cyfry, wyświetl &quot;parzysta liczba dwucyfrowa&quot;.
+7.	Jeśli liczba jest nieparzysta i ma dwie cyfry, wyświetl &quot;nieparzysta liczba dwucyfrowa&quot;.
+8.	Jeśli liczba jest parzysta i ma trzy cyfry, wyświetl &quot;parzysta liczba trzycyfrowa&quot;.
+9.	Jeśli liczba jest nieparzysta i ma trzy cyfry, wyświetl &quot;nieparzysta liczba trzycyfrowa&quot;.
+10.	Jeśli wprowadzona liczba znajduje się poza przedziałem 1 - 999, nie wyświetlaj niczego.
+
+

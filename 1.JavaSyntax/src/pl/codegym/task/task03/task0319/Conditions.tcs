@@ -1,0 +1,19 @@
+taskKey="pl.codegym.task.task03.task0319"\n\nPrognozy
+
+Za pomocą klawiatury wprowadź osobno imie, liczba1 i liczba2.
+Wyświetl następujące zdanie:
+<imie> dostanie <liczba1> za <liczba2> lat.
+
+Oto przykład:
+Misiek dostanie 10000 za 5 lat.
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst.
+2.	Program musi odczytywać dane z klawiatury.
+3.	Wyświetlony tekst musi zawierać wprowadzone imię.
+4.	Wyświetlony tekst musi zawierać wprowadzoną wartość liczba1.
+5.	Wyświetlony tekst musi zawierać wprowadzoną wartość liczba2.
+6.	Wyświetlany tekst musi spełniać wszystkie warunki zadania.
+
+

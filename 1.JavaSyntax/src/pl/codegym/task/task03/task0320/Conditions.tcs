@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task03.task0320"\n\nSkromny programista
+
+Użyj klawiatury, aby wprowadzić imię i wyświetl:
+<imie> zarabia 120 000 zł na rok. Ha ha ha!
+
+Na przykład:
+Sylwia zarabia 120 000 zł na rok. Ha ha ha!
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst.
+2.	Program musi odczytywać dane z klawiatury.
+3.	Wyświetlony tekst musi zawierać wprowadzone imię.
+4.	Wyświetlany tekst musi spełniać wszystkie warunki zadania.
+
+

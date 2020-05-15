@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task07.task0725"\n\nPrzestaw modyfikator statyczny
+
+Przenieś jeden modyfikator statyczny tak, aby program się kompilował.
+
+
+Requirements:
+1.	Program nie może wczytywać danych z klawiatury.
+2.	Klasa musi mieć zmienną A.
+3.	Klasa musi mieć zmienną B.
+4.	Klasa musi mieć zmienną C.
+5.	W klasie musi być metoda main.
+6.	W klasie musi być metoda getValue.
+7.	Klasa musi mieć 4 modyfikatory statyczne (zmienne i metody).
+
+

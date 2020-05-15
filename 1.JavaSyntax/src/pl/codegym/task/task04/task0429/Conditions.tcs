@@ -1,0 +1,33 @@
+taskKey="pl.codegym.task.task04.task0429"\n\nLiczby dodatnie i ujemne
+
+Użyj klawiatury, aby wprowadzić trzy liczby całkowite. Wyświetl liczbę liczb dodatnich i liczbę liczb ujemnych w podanym zestawie w następującej formie:
+„Liczba liczb ujemnych: a” i „Liczba liczb dodatnich: b”, gdzie a i b to niewiadome.
+
+Oto kilka przykładów:
+a) jeśli wprowadzisz liczby
+2
+5
+6
+to wyświetlimy
+Liczba liczb ujemnych: 0
+Liczba liczb dodatnich: 3
+
+b) jeśli wprowadzisz liczby
+-2
+-5
+6
+to wyświetlimy
+Liczba liczb ujemnych: 2
+Liczba liczb dodatnich: 1
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Program powinien wyświetlać tekst na ekranie.
+3.	Program powinien wyświetlać liczbę ujemnych liczb w podanym zestawie.
+4.	Program powinien wyświetlać liczbę dodatnich liczb w podanym zestawie.
+5.	Jeśli nie ma żadnych liczb ujemnych, program powinien wyświetlać: &bdquo;Liczba liczb ujemnych: 0&rdquo;.
+6.	Jeśli nie ma żadnych liczb dodatnich, program powinien wyświetlać: &bdquo;Liczba liczb dodatnich: 0&rdquo;.
+7.	Zauważ, że 0 nie jest ani dodatnią, ani ujemną liczbą.
+
+

@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task04.task0436"\n\nRysowanie prostokąta
+
+Za pomocą klawiatury wprowadź dwie liczby: m i n.
+Używając pętli for, wyświetl prostokąt n x m zbudowany z ósemek.
+
+Oto przykład: m=2, n=4
+8888
+8888
+
+
+Requirements:
+1.	Program powinien czytać dwie liczby z klawiatury.
+2.	Program powinien wyświetlać tekst na ekranie.
+3.	Program powinien wyświetlać prostokąt n x m wykonany z &oacute;semek.
+4.	Program musi używać pętli for.
+
+

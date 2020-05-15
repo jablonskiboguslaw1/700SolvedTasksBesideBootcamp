@@ -1,0 +1,20 @@
+taskKey="pl.codegym.task.task04.task0413"\n\nDzień tygodnia
+
+Użyj klawiatury, aby wprowadzić liczbę odpowiadającą dniu tygodnia. Następnie, zależnie od wprowadzonej liczby,
+wyświetl nazwę dnia tygodnia:„Poniedziałek”, „Wtorek”, „Środa”, „Czwartek”, „Piątek”, „Sobota”, „Niedziela”,
+a jeśli wprowadzisz liczbę większą niż 7 bądź mniejszą niż 1, wyświetl „Nie ma takiego dnia tygodnia”.
+
+Przykład dla liczby 5:
+Piątek
+
+Przykład dla liczby 10:
+Nie ma takiego dnia tygodnia
+
+
+Requirements:
+1.	Program powinien odczytywać liczbę z klawiatury.
+2.	Program powinien wyświetlać tekst na ekranie.
+3.	Jeśli wprowadzisz liczbę od 1 do 7, musisz wyświetlić nazwę dnia tygodnia.
+4.	Jeśli wyświetlisz numer spoza przedziału od 1 do 7, wyświetl powiadomienie, że nie ma takiego dnia tygodnia.
+
+

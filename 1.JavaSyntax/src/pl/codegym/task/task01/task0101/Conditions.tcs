@@ -1,0 +1,17 @@
+taskKey="pl.codegym.task.task01.task0101"\n\nTak sobie myślę, że bycie programistą jest cool
+
+Napisz program, który wyświetla: „Myślę, że bycie programistą jest cool”.
+
+Przykładowy wynik:
+Myślę, że bycie programistą jest cool
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst.
+2.	Tekst powinien zaczynać się od &bdquo;Myślę,&rdquo;
+3.	Tekst powinien kończyć się na &bdquo;jest cool&rdquo;.
+4.	Tekst powinien liczyć 37 znak&oacute;w, łącznie ze spacjami i znakami interpunkcyjnymi.
+5.	Tekst powinien składać się z jednej linii.
+6.	Wyświetlany tekst musi spełniać warunki zadania.
+
+

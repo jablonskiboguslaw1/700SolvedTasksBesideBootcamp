@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task04.task0440"\n\nUczciwe zarobki
+
+Użyj pętli, aby wyświetlić następujące zdanie sto razy:
+„Nie pytałem o dodatek na waciki. Amigo”
+Każdą wartość wyświetl w nowej linii.
+
+
+Requirements:
+1.	Program nie powinien czytać tekstu z klawiatury.
+2.	Program powinien wyświetlać tekst na ekranie.
+3.	Program powinien wyświetlać tekst podany w zadaniu 100 razy.
+4.	Program musi używać pętli for bądź pętli while.
+
+

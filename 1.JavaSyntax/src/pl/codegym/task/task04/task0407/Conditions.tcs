@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task04.task0407"\n\nKoty we Wszechświecie
+
+Napisz kod, który policzy i poda dokładną liczbę utworzonych kotów (licznik) i wyświetli poprawną liczbę kotów na ekranie.
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst na ekranie.
+2.	Nie zmieniaj linii odpowiedzialnej za wyświetlanie na ekranie.
+3.	Klasa Kot musi mieć tylko jedną zmienną licznik.
+4.	Zmienna licznik klasy Kot musi być statyczna i typu int, mieć modyfikator dostępu publiczny i być zainicjowana wartością zero.
+5.	Metoda main powinna mieć tylko dwie zainicjowane zmienne Kot.
+6.	Zmienna licznik musi przechowywać aktualną liczbę utworzonych obiekt&oacute;w kot.
+
+

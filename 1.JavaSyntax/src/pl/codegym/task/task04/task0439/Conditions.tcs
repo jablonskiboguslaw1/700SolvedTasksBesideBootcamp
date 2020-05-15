@@ -1,0 +1,24 @@
+taskKey="pl.codegym.task.task04.task0439"\n\nŁańcuszek
+
+Przy pomocy klawiatury wprowadź imię i użyj pętli for, aby wyświetlić 10 razy: <imię> mnie kocha.
+
+Przykładowy wynik dla imienia „Sonia”:
+Sonia mnie kocha.
+Sonia mnie kocha.
+Sonia mnie kocha.
+Sonia mnie kocha.
+Sonia mnie kocha.
+Sonia mnie kocha.
+Sonia mnie kocha.
+Sonia mnie kocha.
+Sonia mnie kocha.
+Sonia mnie kocha.
+
+
+Requirements:
+1.	Program powinien czytać imię z klawiatury.
+2.	Program powinien wyświetlać tekst na ekranie.
+3.	Program powinien wyświetlać tekst podany w zadaniu 10 razy.
+4.	Program musi używać pętli for.
+
+

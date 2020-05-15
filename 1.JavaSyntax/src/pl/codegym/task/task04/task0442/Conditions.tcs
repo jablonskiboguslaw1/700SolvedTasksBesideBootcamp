@@ -1,0 +1,22 @@
+taskKey="pl.codegym.task.task04.task0442"\n\nDodawanie
+
+Za pomocą klawiatury wprowadź liczby.
+Jeśli użytkownik wprowadzi -1, wyświetli się suma wszystkich wprowadzonych liczb i program się zakończy.
+-1 powinno być częścią sumy.
+
+Wskazówka: jedno z rozwiązań zawiera następującą konstrukcję:
+
+while (true) {
+int liczba = wczytaj liczbę;
+if (sprawdza, czy liczba jest -1)
+break;
+}
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Jeśli użytkownik wprowadzi -1, program powinien wyświetlić sumę wszystkich wprowadzonych liczb i zakończyć się.
+3.	Program musi obliczać i wyświetlać sumę wprowadzonych liczb.
+4.	Program musi używać pętli for bądź pętli while.
+
+

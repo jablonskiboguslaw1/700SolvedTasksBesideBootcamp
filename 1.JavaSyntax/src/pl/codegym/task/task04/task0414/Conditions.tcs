@@ -1,0 +1,26 @@
+taskKey="pl.codegym.task.task04.task0414"\n\nLiczba dni w roku
+
+Przy pomocy klawiatury wprowadź rok, a następnie ustal liczbę dni w tym roku. Wyświetl wynik w następujący sposób:
+Liczba dni w roku: x
+, gdzie
+x to 366 dla roku przestępnego i
+x to 365 dla zwyczajnego roku.
+
+Wskazówka:
+Rok przestępny ma 366 dni, a zwyczajny rok 365 dni.
+1) jeśli rok jest podzielny przez 400, to jest to rok przestępny;
+2) dla pozostałych lat podzielnych przez 100, rok jest zwyczajny;
+3) dla pozostałych lat podzielnych przez 4, rok jest przestępny;
+4) wszystkie pozostałe lata nie są przestępne.
+Zatem lata 1700, 1800 i 1900 nie są przestępne, ponieważ są podzielne przez 100, ale nie przez 400.
+Lata 1600 i 2000 są przestępne, ponieważ są podzielne przez 100 oraz przez 400.
+Lata 2100, 2200 i 2300 nie są przestępne.
+
+
+Requirements:
+1.	Program powinien odczytywać liczbę z klawiatury.
+2.	Program powinien wyświetlać na ekranie tekst zgodnie z warunkami zadania.
+3.	Jeśli wprowadzony rok jest przestępny, powinieneś/powinnaś wyświetlić: &bdquo;Liczba dni w roku: 366&rdquo;.
+4.	Jeśli wprowadzony rok nie jest przestępny, powinieneś wyświetlić: &bdquo;Liczba dni w roku: 365&rdquo;.
+
+

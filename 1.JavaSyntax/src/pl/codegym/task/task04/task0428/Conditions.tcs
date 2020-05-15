@@ -1,0 +1,35 @@
+taskKey="pl.codegym.task.task04.task0428"\n\nLiczba dodatnia
+
+Użyj klawiatury, aby wprowadzić trzy liczby całkowite. Wyświetl liczbę wszystkich liczb dodatnich w podanym zestawie.
+
+Oto kilka przykładów:
+a) jeśli wprowadzisz liczby
+-4
+6
+6
+to wyświetlimy
+2
+
+b) jeśli wprowadzisz liczby
+-6
+-6
+-3
+to wyświetlimy
+0
+
+a) jeśli wprowadzisz liczby
+0
+1
+2
+to wyświetlimy
+2
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Program musi wyświetlać liczbę na ekranie.
+3.	Program powinien wyświetlać liczbę dodatnich liczb w podanym zestawie.
+4.	Jeśli nie ma żadnych liczb dodatnich, program powinien wyświetlić &quot;0&quot;.
+5.	Zauważ, że 0 nie jest ani dodatnią, ani ujemną liczbą.
+
+

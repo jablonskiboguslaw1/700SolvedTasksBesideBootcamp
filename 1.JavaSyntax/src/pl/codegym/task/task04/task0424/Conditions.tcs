@@ -1,0 +1,18 @@
+taskKey="pl.codegym.task.task04.task0424"\n\nTrzy liczby
+
+Użyj klawiatury, aby wprowadzić trzy liczby całkowite. Jedna z liczb jest różna.
+Pozostałe dwie są identyczne. Wyświetl indeks liczby, która jest różna od innych.
+Przykład dla 4 6 6:
+1
+
+Przykład dla 6 6 3:
+3
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Program powinien używać polecenia System.out.println() lub System.out.print().
+3.	Program powinien wyświetlać indeks liczby, kt&oacute;ra jest r&oacute;żna od pozostałych.
+4.	Jeśli wszystkie liczby są r&oacute;żne, nie wyświetlaj niczego.
+
+

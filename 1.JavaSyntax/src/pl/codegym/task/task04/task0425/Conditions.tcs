@@ -1,0 +1,28 @@
+taskKey="pl.codegym.task.task04.task0425"\n\nTarget niedostępny!
+
+Za pomocą klawiatury wprowadź dwie liczby całkowite, odpowiadające koordynatom punktu nieznajdującego się na osiach współrzędnych.
+Wyświetl liczbę kwadrantu, która zawiera dany punkt.
+
+Wskazówka:
+Punkty (a,b) należą do kwadrantu, jeśli spełnione są następujące warunki:
+dla pierwszego kwadrantu: a>0 i b>0;
+dla drugiego kwadrantu: a<0 i b>0;
+dla trzeciego kwadrantu: a<0 i b<0;
+dla czwartego kwadrantu: a>0 i b<0.
+
+Przykład dla 4 6:
+1
+
+Przykład dla -6 -6:
+3
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Program powinien używać polecenia System.out.println() lub System.out.print().
+3.	Jeśli punkt znajduje się w pierwszym kwadrancie, wyświetl &quot;1&quot;.
+4.	Jeśli punkt znajduje się w drugim kwadrancie, wyświetl &quot;2&quot;.
+5.	Jeśli punkt znajduje się w trzecim kwadrancie, wyświetl &quot;3&quot;.
+6.	Jeśli punkt znajduje się w czwartym kwadrancie, wyświetl &quot;4&quot;.
+
+

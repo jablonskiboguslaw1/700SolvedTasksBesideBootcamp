@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task04.task0441"\n\nJakiś taki przeciętny
+
+Przy pomocy klawiatury wprowadź trzy liczby i wyświetl liczbę o środkowej wartości.
+Innymi słowy, nie największą i nie najmniejszą.
+Jeśli wszystkie liczby są równe, wyświetl jedną z nich.
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Program musi wyświetlać liczbę na ekranie.
+3.	Program powinien wyświetlać liczbę o środkowej wartości spośr&oacute;d trzech podanych liczb:
+4.	Jeśli wszystkie liczby są r&oacute;wne, wyświetl jedną z nich.
+5.	Jeśli dwie liczby są takie same, wyświetl jedną z nich.
+
+

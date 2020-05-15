@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task04.task0431"\n\nOd 10 do 1
+
+Wyświetl liczby od 10 do 1, używając pętli while. Każda wartość powinna być wyświetlona w nowej linii.
+
+
+Requirements:
+1.	Program nie powinien wczytywać danych z klawiatury.
+2.	Program powinien wyświetlać liczby na ekranie.
+3.	Każda wartość powinna być wyświetlona w nowej linii.
+4.	Program powinien wyświetlać liczby od 10 do 1.
+5.	Program musi używać pętli while.
+
+

@@ -1,0 +1,16 @@
+taskKey="pl.codegym.task.task03.task0325"\n\nOczekiwania finansowe
+
+Używając klawiatury, wprowadź liczbę N.
+Wyświetl na ekranie zdanie „Zarobię N zł na godzinę”.
+
+Na przykład:
+Zarobię 100 zł na godzinę
+
+
+Requirements:
+1.	Program powinien wyświetlać tekst.
+2.	Program musi odczytywać dane z klawiatury.
+3.	Wyświetlony tekst musi zawierać wprowadzoną liczbę N.
+4.	Wyświetlany tekst musi spełniać wszystkie warunki zadania.
+
+

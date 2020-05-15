@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task04.task0420"\n\nSortowanie trzech liczb
+
+Użyj klawiatury, aby wprowadzić trzy liczby i wyświetl je w kolejności malejącej.
+Wyświetlane liczby muszą być rozdzielone spacjami.
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Program powinien wyświetlać liczby na ekranie.
+3.	Program powinien wyświetlać trzy liczby rozdzielone spacjami.
+4.	Program powinien wyświetlać liczby w kolejności malejącej.
+
+

@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task04.task0419"\n\nNajwiększa z czterech liczb
+
+Użyj klawiatury, aby wprowadzić cztery liczby i wyświetlić największą z nich.
+Jeśli największa liczba pojawia się więcej niż raz, po prostu wyświetl ją raz.
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Program musi wyświetlać liczbę na ekranie.
+3.	Program powinien największą z czterech liczb.
+4.	Jeśli największych liczb jest kilka, wyświetl jedną z nich.
+
+

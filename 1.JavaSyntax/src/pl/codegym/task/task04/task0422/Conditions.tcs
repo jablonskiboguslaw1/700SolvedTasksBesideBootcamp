@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task04.task0422"\n\n18+
+
+Za pomocą klawiatury wprowadź imię i wiek. Jeśli wiek jest mniejszy niż 18, wyświetl "Podrośnij trochę".
+
+
+Requirements:
+1.	Program musi czytać dane z klawiatury dwa razy.
+2.	Program powinien używać polecenia System.out.println() lub System.out.print().
+3.	Jeśli wiek jest mniejszy niż 18, wyświetl &bdquo;Podrośnij trochę&rdquo; i nic więcej.
+4.	Jeśli wiek jest r&oacute;wny bądź większy niż 18, nie wyświetlaj niczego.
+
+

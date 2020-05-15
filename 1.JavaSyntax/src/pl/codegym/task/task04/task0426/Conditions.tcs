@@ -1,0 +1,26 @@
+taskKey="pl.codegym.task.task04.task0426"\n\nEtykiety i liczby
+
+Za pomocą klawiatury wprowadź liczbę całkowitą. Wyświetl opis ciągu, jak poniżej:
+„Ujemna liczba parzysta” – jeśli liczba jest ujemna i parzysta,
+„Ujemna liczba nieparzysta” – jeśli liczba jest ujemna i nieparzysta,
+„Zero” – jeśli liczba to 0,
+„Dodatnia liczba parzysta” – jeśli liczba jest dodatnia i parzysta,
+„Dodatnia liczba nieparzysta” – jeśli liczba jest dodatnia i nieparzysta.
+
+Przykład dla 100:
+Dodatnia liczba parzysta
+
+Przykład dla -51:
+Ujemna liczba nieparzysta
+
+
+Requirements:
+1.	Program powinien odczytywać liczbę z klawiatury.
+2.	Program powinien używać polecenia System.out.println() lub System.out.print().
+3.	Jeśli liczba jest ujemna i parzysta, wyświetl &bdquo;Ujemna liczba parzysta&rdquo;.
+4.	Jeśli liczba jest ujemna i nieparzysta, wyświetl &bdquo;Ujemna liczba nieparzysta&rdquo;.
+5.	Jeśli liczba to 0, wyświetl &bdquo;Zero&rdquo;.
+6.	Jeśli liczba jest dodatnia i parzysta, wyświetl &bdquo;Dodatnia liczba parzysta&rdquo;.
+7.	Jeśli liczba jest dodatnia i nieparzysta, wyświetl &bdquo;Dodatnia liczba nieparzysta&rdquo;.
+
+

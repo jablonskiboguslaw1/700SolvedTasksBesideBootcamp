@@ -1,0 +1,15 @@
+taskKey="pl.codegym.task.task04.task0438"\n\nRysowanie linii
+
+Użyj pętli for, aby wyświetlić:
+- poziomą linię z 10 ósemek,
+- pionową linię z 10 ósemek.
+
+
+Requirements:
+1.	Program nie powinien czytać liczb z klawiatury.
+2.	Program powinien wyświetlać liczby na ekranie.
+3.	Program powinien wyświetlać poziomą linię z 10 &oacute;semek.
+4.	Program powinien wyświetlać pionową linię z 10 &oacute;semek.
+5.	Program musi używać pętli for.
+
+

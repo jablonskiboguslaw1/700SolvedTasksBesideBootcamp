@@ -1,0 +1,12 @@
+taskKey="pl.codegym.task.task04.task0418"\n\nMniejsza z dwóch liczb
+
+Użyj klawiatury, aby wprowadzić dwie liczby całkowite i wyświetl tę mniejszą. Jeżeli liczby są takie same, wyświetl jedną z nich.
+
+
+Requirements:
+1.	Program powinien czytać liczby z klawiatury.
+2.	Program musi wyświetlać liczbę na ekranie.
+3.	Program powinien wyświetlać mniejszą z dw&oacute;ch liczb całkowitych.
+4.	Jeżeli liczby są takie same, wyświetl jedną z nich.
+
+

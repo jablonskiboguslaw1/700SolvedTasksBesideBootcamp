@@ -1,0 +1,14 @@
+taskKey="pl.codegym.task.task03.task0324"\n\nCele biznesowe
+
+Wyświetl dziesięć razy zdanie: „Oczekuję wysokiej pensji, dlatego uczę się Javy”
+
+
+Requirements:
+1.	Program nie może wczytywać danych z klawiatury.
+2.	Program powinien wyświetlać tekst.
+3.	Tekst powinien zaczynać się od &bdquo;Oczekuję wysokiej&rdquo;.
+4.	Tekst powinien kończyć się na &bdquo;się Javy&rdquo;.
+5.	Tekst powinien składać się z 10 linii.
+6.	Wyświetlany tekst musi spełniać warunki zadania.
+
+

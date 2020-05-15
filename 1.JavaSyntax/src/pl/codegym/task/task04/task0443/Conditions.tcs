@@ -1,0 +1,21 @@
+taskKey="pl.codegym.task.task04.task0443"\n\nImię to imię
+
+Za pomocą klawiatury wprowadź imię.
+Za pomocą klawiatury wprowadź datę urodzenia (trzy liczby): rrrr, mm, dd.
+
+A następnie wyświetl:
+„Mam na imię *imię*.
+Urodziłem/am się mm/dd/rrrr”
+
+Przykładowy wynik:
+Mam na imię Michał.
+Urodziłem/am się 2/15/1988
+
+
+Requirements:
+1.	Program powinien czytać cztery linie z klawiatury.
+2.	Program powinien wyświetlać linie na ekranie.
+3.	Program powinien wyświetlać tekst zgodny z szablonem podanym w zadaniu.
+4.	Każde stwierdzenie wyświetl w nowej linii.
+
+

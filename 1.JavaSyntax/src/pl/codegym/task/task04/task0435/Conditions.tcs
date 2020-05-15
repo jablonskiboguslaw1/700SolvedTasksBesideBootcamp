@@ -1,0 +1,13 @@
+taskKey="pl.codegym.task.task04.task0435"\n\nLiczby parzyste
+
+Użyj pętli for, aby wyświetlić liczby parzyste od 1 do 100 włącznie.
+Każdą wartość wyświetl w nowej linii.
+
+
+Requirements:
+1.	Program nie powinien czytać tekstu z klawiatury.
+2.	Program powinien wyświetlać tekst na ekranie.
+3.	Program powinien wyświetlać liczby parzyste od 1 do 100 włącznie. Każdą wartość wyświetl w nowej linii.
+4.	Program musi używać pętli for.
+
+
