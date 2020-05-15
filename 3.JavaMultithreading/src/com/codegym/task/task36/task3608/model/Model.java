@@ -2,7 +2,12 @@ package com.codegym.task.task36.task3608.model;
 
 public interface Model {
     DataModel getDataModel();
+
     void loadUsers();
+
     void loadDeletedUsers();
+
     void loadUserById(long id);
+
+    void deleteUserById(long id);
 }

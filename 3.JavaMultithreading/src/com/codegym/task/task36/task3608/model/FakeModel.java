@@ -34,5 +34,10 @@ List<User> list = new ArrayList<>();
         throw new UnsupportedOperationException();
     }
 
+    @Override
+    public void deleteUserById(long id) { throw new UnsupportedOperationException();
+
+    }
+
 
 }

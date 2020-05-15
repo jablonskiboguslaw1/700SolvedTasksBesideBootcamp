@@ -4,6 +4,7 @@ import com.codegym.task.task36.task3608.bean.User;
 import com.codegym.task.task36.task3608.model.service.UserService;
 import com.codegym.task.task36.task3608.model.service.UserServiceImpl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainModel implements Model {
@@ -19,9 +20,14 @@ public class MainModel implements Model {
     @Override
     public void loadUsers() {
         dataModel.setDisplayDeletedUserList(false);
-        dataModel.setUsers(userService.getUsersBetweenLevels(1, 100));
+        dataModel.setUsers(getAllUsers());
 
     }
+    private List<User> getAllUsers(){
+        dataModel.setUsers(userService.getUsersBetweenLevels(1, 100));
+        return userService.filterOnlyActiveUsers(dataModel.getUsers());
+        }
+
 
     public void loadDeletedUsers() {
         dataModel.setDisplayDeletedUserList(true);
@@ -34,6 +40,10 @@ public class MainModel implements Model {
     public void loadUserById(long id) {
         User user = userService.getUsersById(id);
         dataModel.setActiveUser(user);
+    }
+    public void deleteUserById(long id){
+        userService.deleteUser(id);
+        dataModel.setUsers(getAllUsers());
     }
 }
 
