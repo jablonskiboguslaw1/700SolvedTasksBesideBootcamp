@@ -17,14 +17,16 @@ public class MainModel implements Model {
     }
 
     @Override
-    public void loadUsers() {
+    public void loadUsers() {dataModel.setDisplayDeletedUserList(false);
         dataModel.setUsers(userService.getUsersBetweenLevels(1,100));
+
     }
 
     public void loadDeletedUsers() {
+        dataModel.setDisplayDeletedUserList(true);
 
 
         List<User> users = userService.getAllDeletedUsers();
-        dataModel.setUsers(users);
+        dataModel.setUsers(users);}
     }
-}
+

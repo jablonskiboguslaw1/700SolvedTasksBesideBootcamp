@@ -13,13 +13,15 @@ public class UsersView implements View {
 
     @Override
     public void refresh(DataModel dataModel) {
-        System.out.println("All users:");
+        if (dataModel.isDisplayDeletedUserList())
+
+            System.out.println("All deleted users:");
+        else
+            System.out.println("All users:");
         dataModel.getUsers().forEach(a -> {
             System.out.println("\t" + a);
         });
         System.out.println("===================================================");
-
-
     }
 
     @Override
