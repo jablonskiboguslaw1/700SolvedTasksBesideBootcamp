@@ -45,5 +45,12 @@ public class MainModel implements Model {
         userService.deleteUser(id);
         dataModel.setUsers(getAllUsers());
     }
+    public void changeUserData(String name, long id, int level){
+        userService.createOrUpdateUser(name, id, level);
+        dataModel.setUsers(getAllUsers());
+
+    }
+
+
 }
 

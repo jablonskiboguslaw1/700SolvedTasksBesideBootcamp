@@ -23,7 +23,7 @@ public class Solution {
         usersView.fireShowAllUsersEvent();
         usersView.fireOpenUserEditFormEvent(126L);
         editUserView.fireUserDeletedEvent(124L);
-
+editUserView.fireUserDataChangedEvent("ktos",126,4);
         usersView.fireShowDeletedUsersEvent();
     }
 }

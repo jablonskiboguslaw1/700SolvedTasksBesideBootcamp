@@ -1,13 +1,10 @@
 package com.codegym.task.task21.task2101;
 
-import java.nio.LongBuffer;
-import java.util.Arrays;
-import java.util.BitSet;
-
-/*
+/* 
 Determine the network address
 
 */
+
 public class Solution {
     public static void main(String[] args) {
         byte[] ip = new byte[]{(byte) 192, (byte) 168, 1, 2};
@@ -19,18 +16,22 @@ public class Solution {
     }
 
     public static byte[] getNetAddress(byte[] ip, byte[] mask) {
-        return new byte[4];
+        byte[] netAddress = new byte[4];
+        for (int i = 0; i <netAddress.length-1 ; i++) {
+            netAddress[i]= (byte) (ip[i] & mask[i]);
+
+        }
+        return netAddress;
     }
 
+
+
+
     public static void print(byte[] bytes) {
-        for (byte b: bytes)
 
-
-           // String bitsStr = String.format("%8s", Integer.toBinaryString(bytes.toByteArray()[0] & 0xFF)).replace(' ', '0');
-
-
-        System.out.printf("%08d" ,Long.parseLong(Integer.toBinaryString(b)));
-
-        ;
+        for (byte bit : bytes) {
+            System.out.print((Integer.toBinaryString(bit & 255 | 256).substring(1)+" "));
+        }
+        System.out.println();
     }
 }

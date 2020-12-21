@@ -11,7 +11,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
+        System.out.println(calculate(true,false,true,true));
 
 
     }

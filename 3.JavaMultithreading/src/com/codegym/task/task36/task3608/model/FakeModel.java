@@ -16,7 +16,7 @@ public class FakeModel implements Model {
 
     @Override
     public void loadUsers() {
-List<User> list = new ArrayList<>();
+        List<User> list = new ArrayList<>();
         list.add(new User("A", 1, 1));
         list.add(new User("B", 2, 4));
         dataModel.setUsers(list);
@@ -35,8 +35,14 @@ List<User> list = new ArrayList<>();
     }
 
     @Override
-    public void deleteUserById(long id) { throw new UnsupportedOperationException();
+    public void deleteUserById(long id) {
+        throw new UnsupportedOperationException();
 
+    }
+
+    @Override
+    public void changeUserData(String name, long id, int level) {
+        throw new UnsupportedOperationException();
     }
 
 
