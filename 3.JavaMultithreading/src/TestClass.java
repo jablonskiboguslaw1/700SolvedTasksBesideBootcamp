@@ -1,20 +1,15 @@
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.Charset;
-import java.util.SortedMap;
+import com.codegym.task.task24.task2407.Cat;
 
 public class TestClass {
 
 
-    public static void main(String[] args) throws UnsupportedEncodingException {
+    public static void main(String[] args) {
 
-        SortedMap<String, Charset> charsets = Charset.availableCharsets();
-        System.out.println("!@#$%^&*()");
+        long num = 123L;
+        String s = Long.toBinaryString(num);
+        System.out.println(s);
 
-        String text = "!@#$%^&*()";
-        System.out.println();
-        byte[] bytes = text.getBytes("GB18030");
-
-        String str = new String(bytes, "EUC-JP");
-        System.out.println(str);
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(Byte.MIN_VALUE);
     }
 }

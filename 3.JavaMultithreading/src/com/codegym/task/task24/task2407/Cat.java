@@ -5,7 +5,7 @@ At times, you'll need to cast a class to some interface (CanSpeak, in this case)
 that isn't implemented in the current class
  */
 public class Cat implements Pet {
-    private String name;
+    public String name;
 
     public Cat(String name) {
         this.name = name;
@@ -44,4 +44,7 @@ public class Cat implements Pet {
 
             }
     }return new CatPet();
-}}
+}
+
+
+}

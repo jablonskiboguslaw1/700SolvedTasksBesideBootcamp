@@ -37,7 +37,8 @@ public class Solution implements Action {
                 public void someAction() {
                     super.someAction();
                 }
-            };se.someAction();
+            };
+            se.someAction();
             System.out.println(SecondClass.SPECIFIC_ACTION_FOR_ANONYMOUS_SECOND_CLASS_PARAM.substring(1)+ (param > 0 ? 0 : -1));
         };};
 

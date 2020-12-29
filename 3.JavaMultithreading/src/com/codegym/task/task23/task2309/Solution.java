@@ -53,20 +53,24 @@ public class Solution {
         }.execute();
     }
 
-    public List<Subscription> getSubscriptions(){
-        return new AbstractDbSelectExecutor<Subscription>(){
-
-@Override
-public String getQuery(){
-        return"SELECT * FROM SUBSCRIPTION";
-        }
-        }.execute();}
-    public List<Subject> getSubjects(){
-        return new AbstractDbSelectExecutor<Subject>(){
+    public List<Subscription> getSubscriptions() {
+        return new AbstractDbSelectExecutor<Subscription>() {
 
             @Override
-            public String getQuery(){
-                return"SELECT * FROM SUBJECT";
+            public String getQuery() {
+                return "SELECT * FROM SUBSCRIPTION";
             }
-        }.execute();}}
+        }.execute();
+    }
+
+    public List<Subject> getSubjects() {
+        return new AbstractDbSelectExecutor<Subject>() {
+
+            @Override
+            public String getQuery() {
+                return "SELECT * FROM SUBJECT";
+            }
+        }.execute();
+    }
+}
 

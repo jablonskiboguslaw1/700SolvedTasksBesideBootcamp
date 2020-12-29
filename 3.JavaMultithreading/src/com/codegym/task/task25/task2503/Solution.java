@@ -4,6 +4,7 @@ package com.codegym.task.task25.task2503;
 Your own enum
 
 */
+
 public class Solution {
     /**
      * Output:
@@ -17,14 +18,16 @@ public class Solution {
      */
     public static void main(String[] args) {
 
-        Column.configureColumns(Column.Amount, Column.AccountNumber, Column.BankName);
+        Column.configureColumns(Column.Amount, Column.AccountNumber, Column.Customer);
+       // Column.configureColumns(Column.AccountNumber,Column.Customer, Column.BankName);
 
         for (Columnable columnable : Column.getVisibleColumns()) {
             System.out.println(columnable.getColumnName());
         }
 
         System.out.println("--------------------");
-        Column.AccountNumber.hide();
+        Column.Customer.hide();
+
 
         for (Columnable columnable : Column.getVisibleColumns()) {
             System.out.println(columnable.getColumnName());

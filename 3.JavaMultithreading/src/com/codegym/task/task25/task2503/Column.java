@@ -1,10 +1,9 @@
 package com.codegym.task.task25.task2503;
 
-import java.sql.Array;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.LinkedList;
+import java.util.List;
 
-public enum Column implements Columnable{
+public enum Column implements Columnable {
     Customer("Customer"),
     BankName("Bank Name"),
     AccountNumber("Account Number"),
@@ -51,12 +50,17 @@ public enum Column implements Columnable{
      */
     public static List<Column> getVisibleColumns() {
         List<Column> result = new LinkedList<>();
-result.addAll(Arrays.asList(Column.values()));
-        Collections.reverse(result);
+        for (int i = 0; i < realOrder.length; i++) {
+            for (int j = 0; j < realOrder.length; j++) {
+                if (realOrder[j]!=-1){
+                    if((realOrder[j] == i))
+                    result.add(Column.values()[j]);}
 
-        return result.stream().filter(a->!a.isShown()).collect(Collectors.toList());
+            }
+            }
+        return result;
 
-    }
+        }
 
     @Override
     public String getColumnName() {
@@ -65,17 +69,25 @@ result.addAll(Arrays.asList(Column.values()));
 
     @Override
     public boolean isShown() {
-        return realOrder[this.ordinal()] == -1;
+        if (realOrder[this.ordinal()] == -1)
+            return false;
+        else return true;
     }
+
 
     @Override
     public void hide() {
-        for (int i = 0; i <realOrder.length ; i++) {
-            if(realOrder[i]==this.ordinal()-1)
-                realOrder[i]= -1;
 
+        for (int i = 0; i < realOrder.length; i++) {
+
+
+            realOrder[this.ordinal()]  = -1;
+            }
         }
-
-
     }
-}
+
+
+
+
+
+
